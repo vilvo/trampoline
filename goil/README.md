@@ -2,8 +2,12 @@
 
 Goil is the OIL compiler of Trampoline. To compile Goil for you platform go in the corresponding subdirectory:
 
+
+
 * `makefile-macosx` for Mac OS X. Then type `./build.py`;
-* `makefile-unix` for Linux. Then type `./build.py`;
+* `makefile-unix` for Linux.
+  * Pre-reqs: Debian/Ubuntu -> `sudo apt-get install build-essential`
+  * Then type `./build.py`;
 * `makefile-msys32-on-windows` for Windows with [MSYS](http://www.mingw.org/wiki/msys). Double click on `build.bat`.
 
 In addition Goil can be built on Windows by using [Code::Blocks](http://www.codeblocks.org).
