@@ -3,7 +3,16 @@
 This directory shows some examples for 8 bits AVR targets, including some Arduino boards.
 For all these examples, the Gcc cross-compiler is required.
 
-# Installation 
+# Installation
+
+## pre-requisities
+* **goil** -> See `goil/README.md` to build.
+  * Add goil to PATH - e.g.
+  ```sh
+  echo 'export PATH=$PATH:~/trampoline/goil/makefile-unix/' >> ~/.bashrc
+  source ~/.bashrc
+  ```
+
 ## avr-gcc cross-compiler
 **Linux** (Debian/Ubuntu) -> `sudo apt-get install avr-libc gcc-avr avrdude`
 
